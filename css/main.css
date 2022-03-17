@@ -7,11 +7,54 @@
 body {
   font-family: 'Mochiy Pop P One', sans-serif; }
 
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: orange;
+  width: 100%;
+  top: 0%; }
+
 header {
   grid-area: header;
   background-color: orange;
   color: purple;
   text-align: center; }
+
+/*referencias*/
+.Referencias {
+  width: 600px;
+  background-color: rgba(255, 174, 0, 0.733);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px; }
+  .Referencias .encuesta {
+    color: purple;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .Referencias .pregunta1 {
+    margin-left: 30px;
+    color: black; }
+  .Referencias .pregunta2 {
+    margin-left: 30px;
+    color: black; }
+  .Referencias .pregunta3 {
+    margin-left: 30px;
+    color: black; }
+  .Referencias .respuesta1 {
+    text-align: center;
+    color: green; }
+  .Referencias .respuesta {
+    color: red; }
+  .Referencias .respuesta3 {
+    color: #471eff; }
+  .Referencias .boton {
+    width: 150px;
+    background-color: orangered;
+    color: azure;
+    margin-left: 10px; }
 
 .creditos {
   grid-area: creditos;
@@ -22,6 +65,23 @@ header {
   position: fixed;
   bottom: 0%;
   width: 100%; }
+
+.formulario {
+  width: 600px;
+  background-color: rgba(255, 174, 0, 0.733);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px; }
+  .formulario .form-label {
+    color: purple;
+    font-size: 30px; }
+  .formulario .btn {
+    width: 300px;
+    background-color: orangered;
+    color: azure;
+    margin-left: 100px;
+    margin-top: 20px; }
 
 /*carta*/
 .productos {
@@ -98,34 +158,6 @@ header {
 .img-thumbnail2:hover {
   cursor: pointer;
   height: 500px; }
-
-/*referencias*/
-.encuesta {
-  color: purple;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.pregunta1 {
-  margin-left: 30px;
-  color: black; }
-
-.pregunta2 {
-  margin-left: 30px;
-  color: black; }
-
-.pregunta3 {
-  margin-left: 30px;
-  color: black; }
-
-.respuesta1 {
-  color: green; }
-
-.respuesta {
-  color: red; }
-
-.respuesta3 {
-  color: dodgerblue; }
 
 /*ubicacion*/
 .ubicacion {
