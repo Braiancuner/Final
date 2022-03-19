@@ -57,14 +57,21 @@ header {
     margin-left: 10px; }
 
 .creditos {
-  grid-area: creditos;
   background-color: orange;
   color: #661666;
-  height: 30px;
+  height: 100px;
   text-align: center;
-  position: fixed;
   bottom: 0%;
   width: 100%; }
+  .creditos .redes {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .creditos .redes li {
+      margin: 5px 10px; }
+      .creditos .redes li .img_redes {
+        width: 50px;
+        height: 50px; }
 
 .formulario {
   width: 600px;
@@ -82,6 +89,31 @@ header {
     color: azure;
     margin-left: 100px;
     margin-top: 20px; }
+
+@media (max-width: 564px) {
+  .formulario {
+    width: 100%; } }
+
+.ubicacion {
+  display: flex;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: purple;
+  text-decoration: underline; }
+
+.contenido {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+@media (max-width: 576px) {
+  .ubicacion__maps {
+    width: 100%;
+    height: 350px; } }
+
+.principal {
+  height: 80vh; }
 
 /*carta*/
 .productos {
@@ -160,13 +192,3 @@ header {
   height: 500px; }
 
 /*ubicacion*/
-.ubicacion {
-  display: flex;
-  text-align: center;
-  margin-left: 30px;
-  margin-top: 20px;
-  color: purple;
-  text-decoration: underline; }
-
-.ubicacion__maps:hover {
-  transform: scaleX(2); }

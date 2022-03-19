@@ -2,11 +2,14 @@
 @import"_generales";
 @import "_nav";
 @import"_header";
-
 @import "_referencias";
 @import "_footer";
 @import "_formulario";
+@import"_ubicacion";
 
+.principal{
+    height: 80vh;
+}
 /*carta*/
 .productos{
     color: blueviolet;
@@ -100,15 +103,3 @@
 
 
 /*ubicacion*/
-.ubicacion{
-display: flex;
-text-align: center;
-    margin-left: 30px;
-    margin-top: 20px;
-    color: purple;
-    text-decoration: underline;
-}
-
-.ubicacion__maps:hover{
-    transform: scaleX(2);
-}
