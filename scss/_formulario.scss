@@ -11,11 +11,13 @@
 
     }
     .btn{
-    width: 300px;
+    width: 200px;
     background-color: orangered;
     color: azure;
     margin-left: 100px;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
 
     }
     .youtube{
@@ -29,8 +31,9 @@
         width: 100%;
     }
     .btn{
-    justify-content: center;
-    align-items: center;
+        margin: auto;
+        overflow: hidden;
+
     }
     .youtube{
         width: 90%;
