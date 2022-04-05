@@ -6,6 +6,7 @@
     margin: auto;
     margin-top: 100px;
     border-radius: 5px;
+    overflow: hidden;
     .encuesta{
         color: purple;
         margin-left: 30px;
@@ -42,5 +43,9 @@
     margin-left: 10px;
 }
 }
+@media (max-width:576px){.Referencias
+    {width: 100%;
+    
+}}
 
 

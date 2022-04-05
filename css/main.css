@@ -16,10 +16,13 @@ body {
   top: 0%; }
 
 header {
-  grid-area: header;
+  margin-bottom: 50px;
+  height: 110px;
   background-color: orange;
-  color: purple;
+  color: #474047;
   text-align: center; }
+  header .titulo {
+    margin-bottom: 10px; }
 
 /*referencias*/
 .Referencias {
@@ -28,7 +31,8 @@ header {
   padding: 30px;
   margin: auto;
   margin-top: 100px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  overflow: hidden; }
   .Referencias .encuesta {
     color: purple;
     margin-left: 30px;
@@ -56,22 +60,9 @@ header {
     color: azure;
     margin-left: 10px; }
 
-.creditos {
-  background-color: orange;
-  color: #661666;
-  height: 100px;
-  text-align: center;
-  bottom: 0%;
-  width: 100%; }
-  .creditos .redes {
-    display: flex;
-    list-style: none;
-    justify-content: center; }
-    .creditos .redes li {
-      margin: 5px 10px; }
-      .creditos .redes li .img_redes {
-        width: 50px;
-        height: 50px; }
+@media (max-width: 576px) {
+  .Referencias {
+    width: 100%; } }
 
 .formulario {
   width: 600px;
@@ -111,6 +102,154 @@ header {
   .ubicacion__maps {
     width: 100%;
     height: 350px; } }
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 60px 0;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden; }
+
+.titulos {
+  color: gray;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px; }
+
+.contenedor-sobre-nosotros {
+  display: flex;
+  justify-content: space-evenly; }
+  .contenedor-sobre-nosotros .imagen-about-us {
+    width: 48%; }
+  .contenedor-sobre-nosotros .contenido-textos {
+    background-color: rgba(255, 166, 0, 0.74);
+    width: 48%; }
+    .contenedor-sobre-nosotros .contenido-textos .h2 {
+      margin-bottom: 15px;
+      text-align: center; }
+    .contenedor-sobre-nosotros .contenido-textos .p-inicial {
+      padding: 10px 10px 30px 15px;
+      font-size: 20px;
+      color: black;
+      font-weight: 300;
+      text-align: justify; }
+
+.portafolio {
+  background-color: rgba(255, 166, 0, 0.74); }
+  .portafolio .titulo {
+    text-align: center;
+    padding: 20px;
+    color: #474047; }
+  .portafolio .galeria__port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 230px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px; }
+    .portafolio .galeria__port .imagen__port {
+      display: flex;
+      height: auto;
+      overflow: hidden;
+      position: relative; }
+      .portafolio .galeria__port .imagen__port .img__inicio {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block; }
+
+@media (max-width: 576px) {
+  .contenedor-sobre-nosotros {
+    width: 100%; } }
+
+.container-footer-principal {
+  background-color: orange;
+  width: 100%;
+  padding: 40px 0;
+  color: #661666;
+  height: 250px; }
+  .container-footer-principal .footer {
+    max-width: 1200px;
+    margin: auto; }
+    .container-footer-principal .footer .logo-footer {
+      text-align: center; }
+      .container-footer-principal .footer .logo-footer .img {
+        width: 100px; }
+    .container-footer-principal .footer .redes-footer {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; }
+      .container-footer-principal .footer .redes-footer .icon-redes-footer {
+        font-size: 40px;
+        margin: 20px;
+        width: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #fff; }
+  .container-footer-principal .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500; }
+
+.facebook {
+  background-color: orange; }
+  .facebook:hover {
+    background-color: #41579A; }
+
+.instagram {
+  background-color: orange; }
+  .instagram:hover {
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8); }
+
+.container-footer-pages {
+  background-color: orange;
+  width: 100%;
+  padding: 40px 0;
+  color: #661666;
+  height: 250px;
+  margin-top: 40px; }
+  .container-footer-pages .footer {
+    max-width: 1200px;
+    margin: auto; }
+    .container-footer-pages .footer .logo-footer {
+      text-align: center; }
+      .container-footer-pages .footer .logo-footer .img {
+        width: 100px; }
+    .container-footer-pages .footer .redes-footer {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; }
+      .container-footer-pages .footer .redes-footer .icon-redes-footer {
+        font-size: 40px;
+        margin: 20px;
+        width: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #fff; }
+  .container-footer-pages .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500; }
+
+.facebook {
+  background-color: orange; }
+  .facebook:hover {
+    background-color: #41579A; }
+
+.instagram {
+  background-color: orange; }
+  .instagram:hover {
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8); }
 
 .principal {
   height: 80vh; }

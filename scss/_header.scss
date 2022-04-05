@@ -1,6 +1,14 @@
+
 header{
-    grid-area: header;
+    margin-bottom: 50px;
+    height: 110px;
     background-color: rgb(255, 165, 0);
-    color: $violeta;
-    text-align: center;}
+    color: $gris;
+    text-align: center;
+    .titulo{
+        margin-bottom: 10px;
+    }
+
+}
+
 
