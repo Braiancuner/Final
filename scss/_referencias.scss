@@ -44,11 +44,17 @@
     background-color: orangered;
     color: azure;
     margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+
 }
 }
 @media (max-width:576px){
     .Referencias
     {width: 100%;
+    }
+    .boton{
+        width: 50px;
     }
 }
 
