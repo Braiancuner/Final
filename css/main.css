@@ -21,8 +21,6 @@ header {
   background-color: orange;
   color: #474047;
   text-align: center; }
-  header .hearder__titulos {
-    margin-bottom: 10px; }
   header .batidos {
     color: red; }
 
@@ -107,7 +105,7 @@ header {
   color: red; }
 
 .card {
-  background-color: rgba(255, 174, 0, 0.733);
+  background-color: rgba(255, 174, 0, 0.89);
   margin-left: 10px; }
   .card .card-img-top1 {
     width: 100%;
@@ -119,7 +117,7 @@ header {
   color: #9b009b; }
 
 .list-group-item {
-  background-color: rgba(255, 174, 0, 0.733);
+  background-color: rgba(255, 174, 0, 0.89);
   text-align: center;
   font-size: 20px;
   color: red; }
@@ -132,7 +130,7 @@ header {
 /*referencias*/
 .Referencias {
   width: 600px;
-  background-color: rgba(255, 174, 0, 0.733);
+  background-color: rgba(255, 174, 0, 0.89);
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -145,13 +143,16 @@ header {
     margin-bottom: 20px; }
   .Referencias .pregunta1 {
     margin-left: 30px;
-    color: black; }
+    color: black;
+    font-size: 25px; }
   .Referencias .pregunta2 {
     margin-left: 30px;
-    color: black; }
+    color: black;
+    font-size: 25px; }
   .Referencias .pregunta3 {
     margin-left: 30px;
-    color: black; }
+    color: black;
+    font-size: 25px; }
   .Referencias .respuesta1 {
     text-align: center;
     color: green; }
@@ -171,7 +172,7 @@ header {
 
 .formulario {
   width: 600px;
-  background-color: rgba(255, 174, 0, 0.733);
+  background-color: rgba(255, 174, 0, 0.89);
   padding: 30px;
   margin: auto;
   margin-top: 100px;
