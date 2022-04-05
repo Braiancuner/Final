@@ -21,8 +21,113 @@ header {
   background-color: orange;
   color: #474047;
   text-align: center; }
-  header .titulo {
+  header .hearder__titulos {
     margin-bottom: 10px; }
+  header .batidos {
+    color: red; }
+
+.carousel {
+  width: 500px;
+  height: auto; }
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 60px 0;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden; }
+
+.titulos {
+  color: gray;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px; }
+
+.contenedor-sobre-nosotros {
+  display: flex;
+  justify-content: space-evenly; }
+
+.contenido-textos {
+  background-color: rgba(255, 166, 0, 0.74); }
+  .contenido-textos .quienes {
+    text-align: center;
+    color: #474047;
+    margin-bottom: 15px;
+    text-align: center; }
+  .contenido-textos .encontranos {
+    color: #474047;
+    margin-bottom: 15px;
+    text-align: center; }
+  .contenido-textos .p-inicial {
+    padding: 10px 10px 30px 15px;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    text-align: justify; }
+
+.portafolio {
+  background-color: rgba(255, 166, 0, 0.74); }
+  .portafolio .titulo {
+    text-align: center;
+    padding: 20px;
+    color: #474047; }
+  .portafolio .galeria__port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 230px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px; }
+    .portafolio .galeria__port .imagen__port {
+      display: flex;
+      height: auto;
+      overflow: hidden;
+      position: relative; }
+      .portafolio .galeria__port .imagen__port .img__inicio {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block; }
+
+@media (max-width: 576px) {
+  .contenedor-sobre-nosotros {
+    width: 100%; }
+  .contenido-textos {
+    width: 100%; }
+  .imagen-about-us {
+    width: 100px;
+    height: 100px; } }
+
+/*carta*/
+.productos {
+  color: red; }
+
+.card {
+  background-color: rgba(255, 174, 0, 0.733);
+  margin-left: 10px; }
+  .card .card-img-top1 {
+    width: 100%;
+    height: 500px; }
+
+.card-title {
+  font-size: 40px;
+  text-align: center;
+  color: #9b009b; }
+
+.list-group-item {
+  background-color: rgba(255, 174, 0, 0.733);
+  text-align: center;
+  font-size: 20px;
+  color: red; }
+
+.card-text {
+  text-align: center;
+  color: #0400ff;
+  font-size: 25px; }
 
 /*referencias*/
 .Referencias {
@@ -80,10 +185,19 @@ header {
     color: azure;
     margin-left: 100px;
     margin-top: 20px; }
+  .formulario .youtube {
+    justify-content: center;
+    align-items: center; }
 
 @media (max-width: 564px) {
   .formulario {
-    width: 100%; } }
+    width: 100%; }
+  .btn {
+    justify-content: center;
+    align-items: center; }
+  .youtube {
+    width: 90%;
+    overflow: hidden; } }
 
 .ubicacion {
   display: flex;
@@ -103,130 +217,25 @@ header {
     width: 100%;
     height: 350px; } }
 
-.contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 60px 0;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden; }
-
-.titulos {
-  color: gray;
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 60px; }
-
-.contenedor-sobre-nosotros {
-  display: flex;
-  justify-content: space-evenly; }
-  .contenedor-sobre-nosotros .imagen-about-us {
-    width: 48%; }
-  .contenedor-sobre-nosotros .contenido-textos {
-    background-color: rgba(255, 166, 0, 0.74);
-    width: 48%; }
-    .contenedor-sobre-nosotros .contenido-textos .h2 {
-      margin-bottom: 15px;
-      text-align: center; }
-    .contenedor-sobre-nosotros .contenido-textos .p-inicial {
-      padding: 10px 10px 30px 15px;
-      font-size: 20px;
-      color: black;
-      font-weight: 300;
-      text-align: justify; }
-
-.portafolio {
-  background-color: rgba(255, 166, 0, 0.74); }
-  .portafolio .titulo {
-    text-align: center;
-    padding: 20px;
-    color: #474047; }
-  .portafolio .galeria__port {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 230px;
-    margin-left: 3px;
-    margin-right: 3px;
-    margin-bottom: 10px; }
-    .portafolio .galeria__port .imagen__port {
-      display: flex;
-      height: auto;
-      overflow: hidden;
-      position: relative; }
-      .portafolio .galeria__port .imagen__port .img__inicio {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block; }
-
-@media (max-width: 576px) {
-  .contenedor-sobre-nosotros {
-    width: 100%; } }
-
-.container-footer-principal {
-  background-color: orange;
-  width: 100%;
-  padding: 40px 0;
-  color: #661666;
-  height: 250px; }
-  .container-footer-principal .footer {
-    max-width: 1200px;
-    margin: auto; }
-    .container-footer-principal .footer .logo-footer {
-      text-align: center; }
-      .container-footer-principal .footer .logo-footer .img {
-        width: 100px; }
-    .container-footer-principal .footer .redes-footer {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px; }
-      .container-footer-principal .footer .redes-footer .icon-redes-footer {
-        font-size: 40px;
-        margin: 20px;
-        width: 50px;
-        width: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        color: #fff; }
-  .container-footer-principal .copyright {
-    text-align: center;
-    margin-top: 20px;
-    font-weight: 500; }
-
-.facebook {
-  background-color: orange; }
-  .facebook:hover {
-    background-color: #41579A; }
-
-.instagram {
-  background-color: orange; }
-  .instagram:hover {
-    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8); }
-
-.container-footer-pages {
+.container-footer {
   background-color: orange;
   width: 100%;
   padding: 40px 0;
   color: #661666;
   height: 250px;
-  margin-top: 40px; }
-  .container-footer-pages .footer {
+  margin-top: 60px; }
+  .container-footer .footer {
     max-width: 1200px;
     margin: auto; }
-    .container-footer-pages .footer .logo-footer {
+    .container-footer .footer .logo-footer {
       text-align: center; }
-      .container-footer-pages .footer .logo-footer .img {
+      .container-footer .footer .logo-footer .img {
         width: 100px; }
-    .container-footer-pages .footer .redes-footer {
+    .container-footer .footer .redes-footer {
       display: flex;
       justify-content: center;
       margin-top: 20px; }
-      .container-footer-pages .footer .redes-footer .icon-redes-footer {
+      .container-footer .footer .redes-footer .icon-redes-footer {
         font-size: 40px;
         margin: 20px;
         width: 50px;
@@ -236,7 +245,7 @@ header {
         align-items: center;
         border-radius: 50%;
         color: #fff; }
-  .container-footer-pages .copyright {
+  .container-footer .copyright {
     text-align: center;
     margin-top: 20px;
     font-weight: 500; }
@@ -253,61 +262,6 @@ header {
 
 .principal {
   height: 80vh; }
-
-/*carta*/
-.productos {
-  color: blueviolet; }
-
-.productos__frutas {
-  grid-area: frutas;
-  color: purple;
-  margin-left: 30px; }
-
-.productos__frutasLista {
-  margin-left: 30px;
-  list-style: none;
-  color: #a200ff;
-  text-align: center;
-  font-size: 40px; }
-
-.sugerencias {
-  grid-area: sugerencias;
-  color: purple; }
-
-.sugerencias__lista {
-  margin-left: 30px;
-  list-style: none;
-  text-decoration: none;
-  color: #ac10ac; }
-  .sugerencias__lista .sugerencias__nombres {
-    text-decoration: underline;
-    color: chartreuse;
-    font-size: 30px; }
-  .sugerencias__lista .sugerencias__diferentes {
-    list-style: none;
-    text-align: center;
-    font-size: 25px; }
-
-.especiales {
-  grid-area: especiales;
-  display: flex;
-  color: purple;
-  margin-left: 30px; }
-
-.especiales__lista {
-  margin-left: 30px;
-  list-style: none;
-  text-decoration: none;
-  color: #9900ff;
-  align-self: end; }
-  .especiales__lista .especiales__nombres {
-    color: red;
-    text-decoration: underline;
-    font-size: 30px; }
-  .especiales__lista .especiales__diferentes {
-    list-style: none;
-    text-align: center;
-    font-size: 25px; }
 
 /*transformaciones*/
 .img-thumbnail:hover {

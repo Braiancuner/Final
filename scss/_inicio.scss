@@ -1,3 +1,8 @@
+.carousel{
+    width: 500px;
+    height: auto;
+
+}
 .contenedor{
     display: flex;
     flex-wrap: wrap;
@@ -18,13 +23,20 @@
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
-    .imagen-about-us{
-        width: 48%;
+
     }
     .contenido-textos{
         background-color: rgba(255, 166, 0, 0.74);
-        width: 48%;
-    .h2{
+
+    .quienes{
+        text-align: center;
+        color: $gris;
+        margin-bottom: 15px;
+        text-align: center;
+
+    }
+    .encontranos{
+        color: $gris;
         margin-bottom: 15px;
         text-align: center;
 
@@ -37,7 +49,7 @@
         text-align: justify ;
     }
     }
-}
+
 
 .portafolio{
     background-color: rgba(255, 166, 0, 0.74);
@@ -78,4 +90,13 @@
 @media (max-width:576px){.contenedor-sobre-nosotros
     {width: 100%;
     
-}}
+}
+.contenido-textos{
+    width: 100%
+}
+
+.imagen-about-us{
+    width: 100px;
+    height: 100px;
+}
+}

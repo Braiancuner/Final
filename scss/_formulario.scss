@@ -17,10 +17,23 @@
     margin-left: 100px;
     margin-top: 20px;
 
-}
+    }
+    .youtube{
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 @media(max-width:564px){
     .formulario{
         width: 100%;
+    }
+    .btn{
+    justify-content: center;
+    align-items: center;
+    }
+    .youtube{
+        width: 90%;
+        overflow: hidden;
     }
 }

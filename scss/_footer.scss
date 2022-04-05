@@ -1,12 +1,12 @@
 
-.container-footer-principal{
+.container-footer{
     
     background-color: orange;
     width: 100%;
     padding: 40px 0;
     color: rgb(102, 22, 102);
     height: 250px;
-
+    margin-top: 60px;
     .footer{
         max-width: 1200px;
         margin: auto;
@@ -53,57 +53,3 @@
                     
                     }
                 }
-                .container-footer-pages{
-    
-                    background-color: orange;
-                    width: 100%;
-                    padding: 40px 0;
-                    color: rgb(102, 22, 102);
-                    height: 250px;
-                    margin-top: 40px;
-                    .footer{
-                        max-width: 1200px;
-                        margin: auto;
-                        .logo-footer{
-                            text-align: center;
-                            .img{
-                                width: 100px;
-                            }
-                        }
-                        .redes-footer{
-                            display: flex;
-                            justify-content: center;
-                            margin-top: 20px;
-                            .icon-redes-footer{
-                                font-size: 40px;
-                                margin: 20px;
-                                width: 50px;
-                                width: 50px;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                border-radius: 50%;
-                                color: #fff;}
-                
-                            }
-                        }
-                        .copyright{ 
-                            text-align: center;
-                            margin-top: 20px;
-                            font-weight: 500;
-                        }
-                    }
-                                .facebook{
-                                    background-color: orange;
-                                    &:hover{
-                                        background-color: #41579A;
-                                    }
-                                }
-                                .instagram{
-                                    background-color: orange;
-                                    &:hover{
-                                        
-                                        background:linear-gradient(to top right,#FCDE30,#E9712A,#D2313B,#AE4198,#7540A1,#5443A8);
-                                    
-                                    }
-                                }
